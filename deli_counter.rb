@@ -7,7 +7,8 @@ def line(katz_deli)
     return 'The line is empty'
   else
     katz_deli.each do |a|
-    str = "#{str} #{n}". #{a}
-    n+=1
+      str = "#{str} #{n}". #{a}
+      n+=1
+    end
   end
 end
